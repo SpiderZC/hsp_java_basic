@@ -5,7 +5,7 @@ public class BB extends Template {
     public void job() {
         long num = 0;
         for (long i = 1; i < 80000; i++) {
-           num += i; 
+           num += i;
         }
         System.out.println("BB num is " + num);
     }

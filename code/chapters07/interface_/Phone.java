@@ -6,12 +6,12 @@ public class Phone implements UsbInterface {
 
 	@Override
 	public void start() {
-        System.out.println("phone start!!!");	
+        System.out.println("phone start!!!");
 	}
 
 	@Override
 	public void stop() {
-        System.out.println("phone stop!!!");	
+        System.out.println("phone stop!!!");
 	}
 
 }

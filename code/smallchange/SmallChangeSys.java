@@ -12,7 +12,7 @@ public class SmallChangeSys {
 
         // 2. 零钱通明细
         String detail = "====================零钱通明细====================";
-        
+
         // 3. 收益
         double money = 0;
         double balance = 0;
