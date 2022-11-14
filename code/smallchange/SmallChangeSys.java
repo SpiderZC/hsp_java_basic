@@ -20,7 +20,6 @@ public class SmallChangeSys {
         Date date = null;
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
-
         // 4. 消费
         String note = "";
 
