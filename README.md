@@ -1,2 +1,1 @@
-# hsp_java_basic
-# Mac commit test
+# java_basic
