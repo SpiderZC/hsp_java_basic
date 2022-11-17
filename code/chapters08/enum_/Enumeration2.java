@@ -13,7 +13,7 @@ enum Season2 {
     // 2. 去掉setXXX方法，防止被修改
 
     Boy();
-    
+
 //    SPRING("Spring"),
 //    SUMMER("Summer"),
 //    AUTUMN("Autumn"),

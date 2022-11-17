@@ -12,7 +12,6 @@ public class SmallChangeSys {
 
         // 2. 零钱通明细
         String detail = "====================零钱通明细====================";
-        
 
         // 3. 收益
         double money = 0;
@@ -86,7 +85,7 @@ public class SmallChangeSys {
                    System.out.println("enter wrong, please enter again");
            }
 
-        } while (loop);
+        } while(loop);
 
         System.out.println("exit!!!");
     }

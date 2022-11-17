@@ -21,7 +21,7 @@ public class Teacher extends Person {
     }
 
     public void play() {
-        super.play(); 
+        super.play();
         System.out.println("爱玩象棋");
     }
 }

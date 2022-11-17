@@ -23,7 +23,7 @@ public class HomeWork05 {
             } else if (insertNum > arr[i] && insertNum <= arr[i + 1]) {
                 arrNew[index] = insertNum;
                 index++;
-            } 
+            }
         }
 
         arr = arrNew;

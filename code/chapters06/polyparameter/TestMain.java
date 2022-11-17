@@ -10,7 +10,7 @@ public class TestMain {
         System.out.println(showEmpAnnual(employee));
         testWork(manager);
         System.out.println(showEmpAnnual(manager));
-        
+
     }
 
     public static double showEmpAnnual(Employee employee) {

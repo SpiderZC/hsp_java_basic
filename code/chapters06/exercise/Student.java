@@ -3,7 +3,7 @@ package exercise;
 public class Student extends Person {
     private int id;
     private int score;
-    
+
     public Student(String name, int age, int id, int score) {
         super(name, age);
         this.id = id;

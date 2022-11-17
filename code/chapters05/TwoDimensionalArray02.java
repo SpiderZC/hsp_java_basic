@@ -15,7 +15,7 @@ public class TwoDimensionalArray02 {
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j] + " ");
             }
-           System.out.println(); 
+           System.out.println();
         }
     }
 }

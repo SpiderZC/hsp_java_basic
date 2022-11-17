@@ -23,7 +23,7 @@ class T {
         } else if (n == 10) {
             return 1;
         } else {
-            return (recursion(n + 1) + 1) * 2; 
+            return (recursion(n + 1) + 1) * 2;
         }
     }
 }
