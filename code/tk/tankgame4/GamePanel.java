@@ -86,7 +86,6 @@ public class GamePanel extends JPanel implements KeyListener, Runnable {
 
 
     // tank paint
-
     public void drawTank(int x, int y, Graphics g, int direct, int type) {
 
         switch (type) {
