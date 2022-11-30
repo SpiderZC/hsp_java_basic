@@ -87,6 +87,7 @@ public class SmallChangeSys {
 
         } while(loop);
 
+        scanner.close();
         System.out.println("exit!!!");
     }
 }
