@@ -44,8 +44,8 @@ public class GamePanel extends JPanel implements KeyListener, Runnable {
                 newGame();
                 break;
             default:
-                System.out.println("输入有误");
-
+                System.out.println("enter error, will start new game");
+                newGame();
         }
     }
 
@@ -98,7 +98,7 @@ public class GamePanel extends JPanel implements KeyListener, Runnable {
     // to show record
     public void showInfo(Graphics g) {
         g.setColor(Color.WHITE);
-        Font font = new Font("Fira Code", Font.BOLD, 65);
+        Font font = new Font("Monaco", Font.BOLD, 65);
         g.drawString("累积击毁敌方坦克", 1020, 30);
 
         g.setColor(Color.WHITE);
