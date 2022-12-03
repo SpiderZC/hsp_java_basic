@@ -21,7 +21,6 @@ public class SmallChangeSys {
 
         // 4. 消费
         String note = "";
-
         do {
            System.out.println("\n====================零钱通菜单====================");
            System.out.println("\t\t 1. 零钱通明细");
@@ -30,9 +29,7 @@ public class SmallChangeSys {
            System.out.println("\t\t 4. 退      出");
 
            System.out.println("please enter your choice");
-
            choice = scanner.next();
-
            switch(choice) {
                case "1" :
                    System.out.println(detail);
@@ -75,18 +72,14 @@ public class SmallChangeSys {
                        }
                        System.out.println("输入错误, 请输入y/n");
                    }
-
                    if (lop.equals("y")) {
                        loop = false;
                    }
-
                    break;
                default :
                    System.out.println("enter wrong, please enter again");
            }
-
         } while(loop);
-
         scanner.close();
         System.out.println("exit!!!");
     }
