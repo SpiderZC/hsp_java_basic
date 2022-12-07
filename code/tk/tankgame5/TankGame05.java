@@ -11,7 +11,6 @@ public class TankGame05 extends JFrame {
     GamePanel gamePanel = null;
     Scanner scanner = new Scanner(System.in);
 
-
     public TankGame05(){
         String key = scanner.next();
         gamePanel = new GamePanel(key);
